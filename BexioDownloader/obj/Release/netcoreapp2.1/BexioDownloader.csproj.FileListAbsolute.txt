@@ -1,0 +1,11 @@
+C:\projects\misc\BexioDownloader\BexioDownloader\bin\Release\netcoreapp2.1\BexioDownloader.deps.json
+C:\projects\misc\BexioDownloader\BexioDownloader\bin\Release\netcoreapp2.1\BexioDownloader.runtimeconfig.json
+C:\projects\misc\BexioDownloader\BexioDownloader\bin\Release\netcoreapp2.1\BexioDownloader.runtimeconfig.dev.json
+C:\projects\misc\BexioDownloader\BexioDownloader\bin\Release\netcoreapp2.1\BexioDownloader.dll
+C:\projects\misc\BexioDownloader\BexioDownloader\bin\Release\netcoreapp2.1\BexioDownloader.pdb
+C:\projects\misc\BexioDownloader\BexioDownloader\obj\Release\netcoreapp2.1\BexioDownloader.csproj.CoreCompileInputs.cache
+C:\projects\misc\BexioDownloader\BexioDownloader\obj\Release\netcoreapp2.1\BexioDownloader.AssemblyInfoInputs.cache
+C:\projects\misc\BexioDownloader\BexioDownloader\obj\Release\netcoreapp2.1\BexioDownloader.AssemblyInfo.cs
+C:\projects\misc\BexioDownloader\BexioDownloader\obj\Release\netcoreapp2.1\BexioDownloader.dll
+C:\projects\misc\BexioDownloader\BexioDownloader\obj\Release\netcoreapp2.1\BexioDownloader.pdb
+C:\projects\misc\BexioDownloader\BexioDownloader\obj\Release\netcoreapp2.1\BexioDownloader.csprojAssemblyReference.cache
