@@ -13,28 +13,49 @@ namespace BexioDownloader
             Console.WriteLine("########################################################################");
             Console.WriteLine("########################################################################");
             Console.WriteLine("######################## BEXIO DOWNLOADER ##############################");
-            Console.WriteLine("########################   BY WEPFI GMBH  ##############################");
+            Console.WriteLine("########################   Ficht Hämmerli  #############################");
             Console.WriteLine("########################     WEPFI.CH     ##############################");
-            Console.WriteLine("########################################################################");
+            Console.WriteLine("####################### Kontakt: ficht@wepfi.ch ########################");
             Console.WriteLine("########################################################################");
             Console.WriteLine("");
             Console.WriteLine("");
 
-            if (!File.Exists("token.txt"))
-            { 
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("No token found!");
-                Console.ResetColor();
-                Console.WriteLine("Create a file named 'token.txt' in the same directory where you run this script and copy your access token in it."); 
-                Console.WriteLine("You can create an access token in your bexio settings: https://office.bexio.com/index.php/admin/apiTokens#/");
-                Console.ReadLine();
-                Environment.Exit(0);
+            Console.WriteLine("Bitte gib den Token ein:");
+            string token = Console.ReadLine();
+
+            if (token.Length != 1)
+            {
+                Console.WriteLine("Der Token sieht nicht korrekt aus, trotzdem weiterfahren? (y/n)");
+                string tokenConfirm = Console.ReadKey().ToString();
+                if (tokenConfirm != "y")
+                {
+                    Environment.Exit(0);
+                }
             }
 
-            string token = File.ReadAllText("token.txt");
+            while (true)
+            {
+                Console.WriteLine("Bitte geb den Pfad ein, wo die Dateien gespeichert werden sollen:");
+                string path = Console.ReadLine();
+                // check if directory exists
+                if (Directory.Exists(path))
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Der Pfad existiert nicht, soll er erstellt werden? (y/n)");
+                    string pathConfirm = Console.ReadKey().ToString();
+                    if (pathConfirm == "y")
+                    {
+                        Directory.CreateDirectory(path);
+                        break;
+                    }
+                }
+            }
 
-            Console.WriteLine("What do you want to download? Type:");
-            Console.WriteLine("1 - All (including archive)");
+            Console.WriteLine("Was möchtest du Downloaden? Wähle:");
+            Console.WriteLine("1 - Alles (inklusive Archiv)");
             Console.WriteLine("2 - Inbox");
             short option;
             string input = Console.ReadLine();
@@ -62,7 +83,7 @@ namespace BexioDownloader
 
             List<Document> docs = JsonConvert.DeserializeObject<List<Document>>(result);
 
-            Console.WriteLine("Found " + docs.Count + " documents, starting download..");
+            Console.WriteLine(docs.Count + " Dokumente gefunden, starte download..");
 
             if (!Directory.Exists("\\docs"))
                 Directory.CreateDirectory("docs");
@@ -79,7 +100,7 @@ namespace BexioDownloader
                 }
             }
 
-            Console.WriteLine("All downloads finished");
+            Console.WriteLine("Alle downloads fertig, drücke eine Taste zum beenden..");
             Console.ReadLine();
         }
 
