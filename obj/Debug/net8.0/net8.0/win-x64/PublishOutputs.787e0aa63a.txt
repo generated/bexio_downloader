@@ -1,0 +1,2 @@
+C:\projects\misc\bexio_downloader\publish\windows\bexio-downloader.pdb
+C:\projects\misc\bexio_downloader\publish\windows\bexio-downloader.exe

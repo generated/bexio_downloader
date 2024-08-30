@@ -1,0 +1,6 @@
+C:\projects\misc\bexio_downloader\obj\Debug\net8.0\misc.csproj.AssemblyReference.cache
+C:\projects\misc\bexio_downloader\obj\Debug\net8.0\misc.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\misc\bexio_downloader\obj\Debug\net8.0\misc.AssemblyInfoInputs.cache
+C:\projects\misc\bexio_downloader\obj\Debug\net8.0\misc.AssemblyInfo.cs
+C:\projects\misc\bexio_downloader\obj\Debug\net8.0\misc.csproj.CoreCompileInputs.cache
+C:\projects\misc\bexio_downloader\obj\Debug\net8.0\misc.sourcelink.json

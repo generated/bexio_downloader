@@ -1,0 +1,2 @@
+C:\projects\misc\bexio_downloader\publish\linux\bexio-downloader.pdb
+C:\projects\misc\bexio_downloader\publish\linux\bexio-downloader

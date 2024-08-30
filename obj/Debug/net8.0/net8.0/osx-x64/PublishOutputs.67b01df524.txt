@@ -1,0 +1,2 @@
+C:\projects\misc\bexio_downloader\publish\osx\bexio-downloader.pdb
+C:\projects\misc\bexio_downloader\publish\osx\bexio-downloader
