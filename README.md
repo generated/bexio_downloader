@@ -1,7 +1,7 @@
 # Bexio-Downloader
 ### Einfache Konsolen Applikation zum Downloaden von Bexio Belegen
 
-Diese Anwendung ermöglicht es technischen Laien, Belege von Bexio einfach herunterzuladen. Sie ist benutzerfreundlich gestaltet und benötigt keine vorherige technische Erfahrung.
+Diese Anwendung ermöglicht es Belege von Bexio einfach herunterzuladen.
 
 ## Anleitung
 
