@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bexio-downloader")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1be26b611020c6ce8d0bb009162ce7e804001591")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8344e59c3c1fd67f49d2998b709aea1fb7be35a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("bexio-downloader")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bexio-downloader")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

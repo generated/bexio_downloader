@@ -1,0 +1,14 @@
+C:\projects\misc\BexioDownloader\BexioDownloader\bin\Release\netcoreapp2.1\win10-x64\hostpolicy.dll
+C:\projects\misc\BexioDownloader\BexioDownloader\bin\Release\netcoreapp2.1\win10-x64\hostfxr.dll
+C:\projects\misc\BexioDownloader\BexioDownloader\bin\Release\netcoreapp2.1\win10-x64\BexioDownloader.exe
+C:\projects\misc\BexioDownloader\BexioDownloader\bin\Release\netcoreapp2.1\win10-x64\BexioDownloader.deps.json
+C:\projects\misc\BexioDownloader\BexioDownloader\bin\Release\netcoreapp2.1\win10-x64\BexioDownloader.runtimeconfig.json
+C:\projects\misc\BexioDownloader\BexioDownloader\bin\Release\netcoreapp2.1\win10-x64\BexioDownloader.runtimeconfig.dev.json
+C:\projects\misc\BexioDownloader\BexioDownloader\bin\Release\netcoreapp2.1\win10-x64\BexioDownloader.dll
+C:\projects\misc\BexioDownloader\BexioDownloader\bin\Release\netcoreapp2.1\win10-x64\BexioDownloader.pdb
+C:\projects\misc\BexioDownloader\BexioDownloader\obj\Release\netcoreapp2.1\win10-x64\BexioDownloader.csprojAssemblyReference.cache
+C:\projects\misc\BexioDownloader\BexioDownloader\obj\Release\netcoreapp2.1\win10-x64\BexioDownloader.csproj.CoreCompileInputs.cache
+C:\projects\misc\BexioDownloader\BexioDownloader\obj\Release\netcoreapp2.1\win10-x64\BexioDownloader.AssemblyInfoInputs.cache
+C:\projects\misc\BexioDownloader\BexioDownloader\obj\Release\netcoreapp2.1\win10-x64\BexioDownloader.AssemblyInfo.cs
+C:\projects\misc\BexioDownloader\BexioDownloader\obj\Release\netcoreapp2.1\win10-x64\BexioDownloader.dll
+C:\projects\misc\BexioDownloader\BexioDownloader\obj\Release\netcoreapp2.1\win10-x64\BexioDownloader.pdb
